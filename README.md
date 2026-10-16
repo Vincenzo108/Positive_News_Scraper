@@ -3,17 +3,17 @@ A web scraper that finds positive news to help counter some of the negativity th
 
 ## 1. Using feedparser to access the RSS feed.
 
-<img width="439" height="148" alt="Screenshot 2026-10-15 095946" src="https://github.com/user-attachments/assets/a3896837-e0fe-4b59-a5b3-0f6099cd39b6" />
+<img width="439" height="148" alt="Screenshot 2026-10-15 095946" src="https://github.com/user-attachments/assets/d3e1ef4e-f81d-4c5a-bf81-38cfecec149a" />
 
 I am using `feedparser` to access the RSS feed from [goodnewsnetwork.org](https://www.goodnewsnetwork.org/) where I will be pulling my daily good news from.
 
 ## 2. Using datetime as a filter.
-<img width="735" height="317" alt="Screenshot 2026-10-15 121536" src="https://github.com/user-attachments/assets/2caf6453-d323-4368-8b9a-3159cd7f4aa7" />
+<img width="735" height="317" alt="Screenshot 2026-10-15 121536" src="https://github.com/user-attachments/assets/259766c9-269b-4116-9970-1e897aee054f" />
 
 I am using `datetime` to filter the entries by only those whose publish dates are within 24 hours of running the program.
 
 ## 3. Using BeautifulSoup to clean up the summary.
-<img width="730" height="517" alt="Screenshot 2026-10-15 123703" src="https://github.com/user-attachments/assets/22dd0067-3fff-4019-b3d3-204d25d61cdd" />
+<img width="730" height="517" alt="Screenshot 2026-10-15 123703" src="https://github.com/user-attachments/assets/1079c54d-0ac2-457f-b718-1d6adb8b733e" />
 
 I am using `BeautifulSoup`, we can strip the HTML tags and entry summaries to deliver a cleaner and easier to read entry summary.
 
