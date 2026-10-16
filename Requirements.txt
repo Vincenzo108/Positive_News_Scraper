@@ -1,0 +1,5 @@
+Required libraries:
+
+feedparser
+beautifulsoup4
+datetime
